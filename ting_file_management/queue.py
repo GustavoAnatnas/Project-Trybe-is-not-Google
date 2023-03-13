@@ -18,5 +18,3 @@ class Queue(AbstractQueue):
         if index < 0 or index >= len(self._queue):
             raise IndexError
         return self._queue[index]
-    
-    
