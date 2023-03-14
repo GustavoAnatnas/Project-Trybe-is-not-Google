@@ -5,6 +5,9 @@ class Queue(AbstractQueue):
     def __init__(self):
         self._queue = []
 
+    def get_queue(self):
+        return self._queue
+
     def __len__(self):
         return len(self._queue)
 
